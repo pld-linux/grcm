@@ -8,6 +8,7 @@ Group:		Applications
 Source0:	http://dl.sourceforge.net/grcm/%{name}-%{version}.tar.gz
 # Source0-md5:	0e4d1d226e51ed1388db191d3b5f965a
 Patch0:		%{name}-desktop.patch
+Patch1:		%{name}-makefile.patch
 URL:		http://grcm.sf.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -36,6 +37,7 @@ nie my¶la³ o u¿ywaniu go do ftp, ale by³oby to ³atwe w konfiguracji.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__aclocal}
@@ -60,6 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %attr(755,root,root) %{_bindir}/*
-%{_pixmapsdir}/grcm
+%{_pixmapsdir}/grcm/*.png
+%{_pixmapsdir}/grcm/*.xpm
 %{_omf_dest_dir}/%{name}
 %{_desktopdir}/%{name}.desktop
