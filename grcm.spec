@@ -62,6 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %attr(755,root,root) %{_bindir}/*
+%dir %{_pixmapsdir}/grcm
 %{_pixmapsdir}/grcm/*.png
 %{_pixmapsdir}/grcm/*.xpm
 %{_omf_dest_dir}/%{name}
