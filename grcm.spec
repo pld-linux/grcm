@@ -61,4 +61,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_pixmapsdir}/grcm
 %{_omf_dest_dir}/%{name}
-%{_datadir}/applications/%{name}.desktop
+%{_desktopdir}/%{name}.desktop
