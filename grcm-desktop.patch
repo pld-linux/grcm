@@ -1,0 +1,20 @@
+diff -urN grcm-0.1.3.orig/Makefile.am grcm-0.1.3/Makefile.am
+--- grcm-0.1.3.orig/Makefile.am	Thu Feb 20 23:56:46 2003
++++ grcm-0.1.3/Makefile.am	Thu Feb 20 23:57:10 2003
+@@ -10,7 +10,7 @@
+ 	omf.make \
+ 	grcm.desktop
+ 
+-Applicationsdir = $(datadir)/gnome/apps/Internet
++Applicationsdir = $(datadir)/applications
+ Applications_DATA = grcm.desktop
+ 
+ install-data-local:
+diff -urN grcm-0.1.3.orig/grcm.desktop grcm-0.1.3/grcm.desktop
+--- grcm-0.1.3.orig/grcm.desktop	Thu Feb 20 23:56:46 2003
++++ grcm-0.1.3/grcm.desktop	Fri Feb 21 00:02:34 2003
+@@ -5,3 +5,4 @@
+ Terminal=0
+ Type=Application
+ Icon=grcm/grcm.png
++Categories=Application;Network;
