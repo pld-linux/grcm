@@ -5,7 +5,7 @@ Version:	0.1.5
 Release:	2
 License:	GPL
 Group:		Applications
-Source0:	http://dl.sf.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	0e4d1d226e51ed1388db191d3b5f965a
 Patch0:		%{name}-desktop.patch
 URL:		http://grcm.sf.net/
