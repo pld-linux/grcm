@@ -6,19 +6,16 @@ License:	GPL
 Group:		Applications
 Source0:	http://dl.sf.net/%{name}/%{name}-%{version}.tar.gz
 URL:		http://grcm.sf.net/
-BuildRequires:	autoconf
-BuildRequires:	automake
-BuildRequires:	gtk+2-devel
-BuildRequires:	libtool
+BuildRequires:	libgnomeui-devel >= 2.2.0
 BuildRequires:	dmalloc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Gnome Remote Connection Manager is a gnome application that stores
+Gnome Remote Connection Manager is a Gnome application that stores
 information about remote connections. It gives you a GUI program to
-launch applications like telnet, shh, or rdesktop. It is highly
+launch applications like telnet, ssh or rdesktop. It is highly
 configurable as to what type of applications it launches, so you are
-not limited to the three listed, for example I never thought of using
+not limited to the three listed. For example, I never thought of using
 it for ftp, but it would be easy to setup.
 
 %prep
