@@ -1,0 +1,20 @@
+diff -urN grcm-0.1.5/pixmaps/Makefile.am grcm-0.1.5.new/pixmaps/Makefile.am
+--- grcm-0.1.5/pixmaps/Makefile.am	2003-02-23 13:22:15.000000000 +0100
++++ grcm-0.1.5.new/pixmaps/Makefile.am	2005-03-21 09:30:49.551151712 +0100
+@@ -1,15 +1,6 @@
+ appicondir = $(datadir)/pixmaps/grcm     
+  
+-SOURCES =                               \
+-        ftp.xpm \
+-        rdesktop.png \
+-        ssh.png	\
+-	telnet.png \
+-	icon.png \
+-	connect-16.png \
+-	connect.png \
+-	host-16.png \
+-	host.png 
++SOURCES = ftp.xpm rdesktop.png ssh.png telnet.png icon.png connect-16.png connect.png host-16.png host.png
+ 	
+ 
+ 
