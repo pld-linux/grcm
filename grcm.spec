@@ -1,7 +1,7 @@
 Summary:	Gnome Remote Connection Manager
 Summary(pl):	Gnome Remote Connection Manager - zarz±dca zdalnych po³±czeñ dla GNOME
 Name:		grcm
-Version:	0.1.3
+Version:	0.1.5
 Release:	1
 License:	GPL
 Group:		Applications
