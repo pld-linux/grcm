@@ -1,5 +1,5 @@
 Summary:	GNOME Remote Connection Manager
-Summary(pl):	GNOME Remote Connection Manager - zarz±dca zdalnych po³±czeñ dla GNOME
+Summary(pl.UTF-8):   GNOME Remote Connection Manager - zarzÄ…dca zdalnych poÅ‚Ä…czeÅ„ dla GNOME
 Name:		grcm
 Version:	0.1.5
 Release:	2
@@ -25,14 +25,14 @@ configurable as to what type of applications it launches, so you are
 not limited to the three listed. For example, I never thought of using
 it for ftp, but it would be easy to setup.
 
-%description -l pl
-GNOME Remote Connection Manager (zarz±dca zdalnych po³±czeñ dla GNOME)
-to aplikacja przechowuj±ca informacje o zdalnych po³±czeniach.
-Udostêpnia program z graficznym interfejsem u¿ytkownika do
+%description -l pl.UTF-8
+GNOME Remote Connection Manager (zarzÄ…dca zdalnych poÅ‚Ä…czeÅ„ dla GNOME)
+to aplikacja przechowujÄ…ca informacje o zdalnych poÅ‚Ä…czeniach.
+UdostÄ™pnia program z graficznym interfejsem uÅ¼ytkownika do
 uruchamiania aplikacji typu telnet, ssh czy rdesktop. Jest wysoko
-konfigurowalny co do rodzaju aplikacji, które uruchamia, wiêc nie
-ogranicza do tych trzech wymienionych wy¿ej. Na przyk³ad, autor nigdy
-nie my¶la³ o u¿ywaniu go do ftp, ale by³oby to ³atwe w konfiguracji.
+konfigurowalny co do rodzaju aplikacji, ktÃ³re uruchamia, wiÄ™c nie
+ogranicza do tych trzech wymienionych wyÅ¼ej. Na przykÅ‚ad, autor nigdy
+nie myÅ›laÅ‚ o uÅ¼ywaniu go do ftp, ale byÅ‚oby to Å‚atwe w konfiguracji.
 
 %prep
 %setup -q
