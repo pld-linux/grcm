@@ -1,5 +1,5 @@
 Summary:	GNOME Remote Connection Manager
-Summary(pl.UTF-8):   GNOME Remote Connection Manager - zarządca zdalnych połączeń dla GNOME
+Summary(pl.UTF-8):	GNOME Remote Connection Manager - zarządca zdalnych połączeń dla GNOME
 Name:		grcm
 Version:	0.1.5
 Release:	2
