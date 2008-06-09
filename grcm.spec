@@ -1,12 +1,12 @@
 Summary:	GNOME Remote Connection Manager
 Summary(pl.UTF-8):	GNOME Remote Connection Manager - zarządca zdalnych połączeń dla GNOME
 Name:		grcm
-Version:	0.1.5
-Release:	2
+Version:	0.1.6
+Release:	1
 License:	GPL v2
 Group:		Applications
-Source0:	http://dl.sourceforge.net/grcm/%{name}-%{version}.tar.gz
-# Source0-md5:	0e4d1d226e51ed1388db191d3b5f965a
+Source0:	http://dl.sourceforge.net/grcm/%{name}-%{version}.tar.bz2
+# Source0-md5:	74ee03719fdfde1140a8a5b01a85db42
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-makefile.patch
 URL:		http://grcm.sourceforge.net/
@@ -36,7 +36,6 @@ nie myślał o używaniu go do ftp, ale byłoby to łatwe w konfiguracji.
 
 %prep
 %setup -q
-%patch0 -p1
 %patch1 -p1
 
 %build
