@@ -7,8 +7,7 @@ License:	GPL v2
 Group:		Applications
 Source0:	http://dl.sourceforge.net/grcm/%{name}-%{version}.tar.bz2
 # Source0-md5:	74ee03719fdfde1140a8a5b01a85db42
-Patch0:		%{name}-desktop.patch
-Patch1:		%{name}-makefile.patch
+Patch0:		%{name}-makefile.patch
 URL:		http://grcm.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -36,7 +35,7 @@ nie myślał o używaniu go do ftp, ale byłoby to łatwe w konfiguracji.
 
 %prep
 %setup -q
-%patch1 -p1
+%patch0 -p1
 
 %build
 %{__aclocal}
