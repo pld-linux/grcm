@@ -35,7 +35,7 @@ nie myślał o używaniu go do ftp, ale byłoby to łatwe w konfiguracji.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__aclocal}
